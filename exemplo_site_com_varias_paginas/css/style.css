@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #035e7b;
+    padding: 50px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    width: 30%;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+nav ul li a {
+    background-color: #b497d6;
+    color: white;
+    margin: 20px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px 5px;
+}
+
+.content {
+    width: 70%;
+    background-color: #f3c677;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    padding: 0 50px 150px 50px;
+    border-top-left-radius: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.content > h1, p {
+    margin: 20px;
+}
+
+.content > h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-color: #34113f;
+    color: white;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
